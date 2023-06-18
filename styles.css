@@ -1,0 +1,85 @@
+body{
+    font-family: sans-serif, arial;
+    line-height: 1.5;
+    background-color: rgb(126, 126, 126);
+    display: block;
+}
+#main-doc{
+    margin-left: 310px;
+    margin-right: 2px;
+    position: absolute;
+    padding: 20px;
+    display: block;
+}
+#navbar{
+    position: fixed;
+    border-right: 3px solid black;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 310px;
+    max-width: 310px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.nav-link{
+    border-bottom: 3px solid black;
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 40px;
+    left: 0;
+    
+
+}
+#navbar ul{
+    list-style: none;
+    padding: 0px;
+}
+.navbar-title{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+#xd{
+    border-top: 3px solid black;
+}
+.main-section header{
+    font-size: 2rem;
+}
+.main-section li{
+    margin-bottom: 15px;
+}
+code{
+    background-color: rgb(186, 184, 184);
+    padding: 15px;
+    line-height: 2.5;
+}
+#Variables_globales, #Tipos_de_datos{
+    margin-top: 15px;
+}
+.main-section{
+    display: block;
+}
+#navbar li{
+    position: relative;
+    width: 100%;
+}
+@media(max-width:800px){
+    #navbar{
+        width: 140px;
+    }
+    #main-doc{
+        margin-left: 140px;
+    }
+    .navbar-title{
+        font-size: 0.9rem;
+    }
+    #navbar li{
+        font-size: 0.6rem;
+    }
+}
+*{
+    scroll-behavior: smooth;
+}
